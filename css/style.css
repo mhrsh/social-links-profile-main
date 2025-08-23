@@ -19,10 +19,41 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
     background-color: var(--cinza-medio);
     height: 60rem;
     width: 38rem;
     border-radius: 2rem;
+}
+
+.sobre {
+    text-align: center;
+    color: #fff;
+}
+
+.avatar {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    margin: 4rem 0 2rem 0;
+}
+
+.nome {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.endereco {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--limao);
+    letter-spacing: 0.1rem;
+}
+
+.profissao {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
 }
