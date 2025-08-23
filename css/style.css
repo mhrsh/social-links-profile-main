@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--cinza-escuro);
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinza-medio);
+    height: 60rem;
+    width: 38rem;
+    border-radius: 2rem;
+}
