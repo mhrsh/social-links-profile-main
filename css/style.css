@@ -19,7 +19,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
     background-color: var(--cinza-medio);
     height: 60rem;
@@ -56,4 +56,36 @@ body {
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 2rem;
+}
+
+.redes ul li {
+    margin: 1rem;
+}
+
+.redes ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+    background-color: var(--cinza-claro);
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.redes ul li a:hover {
+    background-color: var(--limao);
+    color: var(--cinza-escuro);
+}
+
+@media(max-width: 393px) {
+    .card {
+        width: 33rem;
+        height: auto;
+        padding-bottom: 4rem;
+        margin-top: 8rem;
+    }
 }
